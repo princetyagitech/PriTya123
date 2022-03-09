@@ -10,8 +10,10 @@ The task is primarily divided into tow parts:
 
 - Deployment folder has following structure:
   ├── app.py  # Flask REST API script
+  
   └── models/
       └── Contains prediction.py , model.pkl ,class.npy
+      
   ├── templates
         ├── home.html
         └── result.html
