@@ -8,7 +8,7 @@ The task is primarily divided into tow parts:
 
 - Modelling contains extensive detailed jupyter notebook 
 
-- Deployment folder has following structure:
+<h2> Deployment folder has following structure: </h2>
  <br />
   ├── app.py  # Flask REST API script  <br />
   
