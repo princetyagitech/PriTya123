@@ -9,14 +9,14 @@ The task is primarily divided into tow parts:
 - Modelling contains extensive detailed jupyter notebook 
 
 - Deployment folder has following structure:
-  ├── app.py  # Flask REST API script
+  ├── app.py  # Flask REST API script  <br />
   
-  └── models/
-      └── Contains prediction.py , model.pkl ,class.npy
+  └── models/  <br />
+      └── Contains prediction.py , model.pkl ,class.npy <br />
       
-  ├── templates
-        ├── home.html
-        └── result.html
-  └── static
-      └── CSS
+  ├── templates  <br />
+        ├── home.html  <br />
+        └── result.html  <br />
+  └── static  <br />
+      └── CSS  <br />
            └── style.css
