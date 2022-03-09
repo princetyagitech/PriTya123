@@ -1,6 +1,6 @@
 # PriTya123
 
-The task is primarily divided into tow parts:
+The task is primarily divided into two parts:
 1. Data Preprocessing and Modelling
 2. Deployment of best model
 
