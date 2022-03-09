@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/bootstrap.css')}}">
+</head>
+<body>
+	<div class="bg-info" align="center">
+	<h2>Class is </h2>
+	</div>
+	<div align="center">
+		{% if prediction == 'ft' %}
+		<h2 class="text-danger">ft</h2>
+		{% elif prediction == 'ch'%}
+		<h2 class="text-success">ch</h2>
+		{% elif prediction =='cnc'%}
+		<h2 class="text-success">cnc</h2>
+		{% elif prediction =='ct'%}
+		<h2 class="text-success">ct</h2>
+		{% elif prediction =='mr'%}
+		<h2 class="text-success">mr</h2>
+		{% elif prediction =='pkg'%}
+		<h2 class="text-success">pkg</h2>
+		{% endif %}
+	</div>
+</body>
+</html>

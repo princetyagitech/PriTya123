@@ -1,0 +1,16 @@
+de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.2.0/de_core_news_sm-3.2.0-py3-none-any.whl
+Flask==2.0.3
+Jinja2==3.0.3
+joblib==1.1.0
+matplotlib==3.5.1
+nltk==3.7
+numpy==1.22.2
+pandas==1.4.1
+scikit-learn==1.0.2
+scipy==1.8.0
+sklearn==0.0
+spacy==3.2.3
+spacy-legacy==3.0.9
+spacy-loggers==1.0.1
+sqlparse==0.4.2
+
